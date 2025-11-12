@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Change the Pitch of Music in Real Time on YouTube | KeyPitch Guide</title>
+  <meta name="description" content="Learn how to change the pitch of any YouTube song in real time. Adjust pitch, key, reverb, speed, loops, and 8D audio with the KeyPitch Chrome extension — perfect for singers, musicians, and music lovers." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root{
+      --bg:#121212;
+      --glass-light:rgba(255,255,255,0.08);
+      --glass-dark:rgba(0,0,0,0.6);
+      --accent:#9b4dff;
+      --accent-dark:#6b28d8;
+      --muted:rgba(255,255,255,0.65);
+      --radius:18px;
+    }
+    body{
+      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background:var(--bg);
+      color:#fff;
+      margin:0;
+      padding:24px;
+      max-width:720px;
+      line-height:1.6;
+      margin-inline:auto;
+      -webkit-font-smoothing:antialiased;
+    }
+    h1{
+      font-size:26px; font-weight:800; text-align:center; margin:0 0 18px;
+      color:rgba(255,255,255,0.92);
+      text-shadow:0 0 10px rgba(155,77,255,0.5);
+    }
+    h2{ font-size:20px; margin:0 0 12px; color:var(--accent); font-weight:700; }
+    p{ margin:0 0 12px; color:rgba(255,255,255,0.88); }
+    .card{
+      background:var(--glass-dark);
+      border:1px solid var(--glass-light);
+      border-radius:var(--radius);
+      padding:18px 20px;
+      box-shadow:0 0 25px rgba(155,77,255,0.18);
+      backdrop-filter:blur(10px);
+      margin-top:16px;
+    }
+    .highlight{ color:var(--accent); font-weight:700; }
+    .button{
+      display:inline-flex; align-items:center; justify-content:center;
+      gap:8px; text-decoration:none; cursor:pointer;
+      background:linear-gradient(145deg, var(--accent), var(--accent-dark));
+      color:#fff; font-weight:700; border:none; border-radius:14px;
+      padding:12px 18px; margin-top:12px;
+      box-shadow:0 0 24px rgba(155,77,255,0.6), 0 0 48px rgba(128,0,255,0.4);
+      transition:transform .2s ease, box-shadow .2s ease;
+    }
+    .button:hover{ transform:translateY(-1px); box-shadow:0 0 40px rgba(155,77,255,0.9), 0 0 80px rgba(128,0,255,0.6); }
+    .material-icons{ font-size:20px; line-height:1; vertical-align:middle; }
+    /* === TUTORIAL FIX: perfect alignment === */
+    .steps{ display:flex; flex-direction:column; gap:10px; }
+    .step{
+      display:grid; grid-template-columns:28px 1fr; gap:12px;
+      align-items:center; /* centers icon and first line */
+      background:rgba(255,255,255,0.04);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:12px; padding:10px 12px;
+    }
+    .step .icon{
+      width:28px; height:28px;
+      display:flex; align-items:center; justify-content:center;
+      color:var(--accent);
+    }
+    .step p{ margin:0; }
+    .note{ font-size:13px; color:var(--muted); }
+    footer{ text-align:center; font-size:13px; color:var(--muted); margin:28px 0 8px; }
+    @media (max-width:600px){
+      body{ padding:18px; }
+      h1{ font-size:22px; }
+      h2{ font-size:18px; }
+      .button{ font-size:14px; padding:10px 16px; border-radius:12px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>How to Change the Pitch of a YouTube Song in Real Time</h1>
+
+  <div class="card">
+    <h2>To <span class="highlight">change the pitch of any YouTube song in real time</span> directly in the browser — no downloads, no converters.</h2>
+  </div>
+
+  <div class="card">
+    <h2>Step-by-Step Tutorial</h2>
+
+    <div class="steps">
+      <div class="step">
+        <div class="icon"><span class="material-icons">download</span></div>
+        <p><strong>Download the KeyPitch Chrome extension</strong> using the button below.</p>
+      </div>
+
+      <a class="button" href="https://chromewebstore.google.com/detail/mnpdjalbnlhffmobepnoiphgjkiplbpf?utm_source=item-share-cb" target="_blank" rel="noopener">
+        <span class="material-icons">open_in_new</span> Download on Chrome Web Store
+      </a>
+
+      <div class="step">
+        <div class="icon"><span class="material-icons">music_note</span></div>
+        <p><strong>Open YouTube</strong> and play the song of choice.</p>
+      </div>
+
+      <div class="step">
+        <div class="icon"><span class="material-icons">extension</span></div>
+        <p>Click the <strong>puzzle icon</strong> (Extensions) at the top-right of Chrome, then select <strong>KeyPitch</strong>.</p>
+      </div>
+
+      <div class="step">
+        <div class="icon"><span class="material-icons">tune</span></div>
+        <p>When the control panel opens, move the pitch slider <strong>left</strong> to lower the pitch (down to <span class="highlight">415.3 Hz</span>) or <strong>right</strong> to raise it (up to <span class="highlight">466.2 Hz</span>).</p>
+      </div>
+
+      <div class="step">
+        <div class="icon"><span class="material-icons">star_rate</span></div>
+        <p>If the experience is helpful, consider leaving a <strong>5/5 rating</strong> on the Chrome Web Store.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>More Ways to Control Music</h2>
+    <p>The tool can also <strong>transpose by semitones</strong> to change the key in real time — ideal for singers and instrumental practice.</p>
+    <p>It supports <strong>reverb</strong>, <strong>speed adjustment</strong>, <strong>loop creation</strong>, and an <strong>8D audio</strong> mode for immersive listening.</p>
+  </div>
+
+  <div class="card">
+    <h2>Perfect For</h2>
+    <p>Music lovers, singers, musicians, music teachers, vocal coaches, karaoke enthusiasts, and audio pros who need quick, browser-based pitch and key control on YouTube.</p>
+  </div>
+
+  <footer>
+    KeyPitch — Real-time pitch, key, speed, reverb & 8D audio control for YouTube.
+  </footer>
+</body>
+</html>
